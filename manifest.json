@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Thumbnail Downloader",
+  "version": "1.0",
+  "description": "YouTube Thumbnail Downloader",
+  "permissions": ["activeTab", "downloads"],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
+}
